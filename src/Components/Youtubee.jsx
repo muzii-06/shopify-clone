@@ -1,7 +1,7 @@
 import React from "react";
 import "./YouTubee.css"; // Import CSS for styling
 
-const YouTube = ({ videoId }) => {
+const YouTubee = ({ videoId }) => {
   return (
     <div className="video-container mt-5">
       <iframe
@@ -15,4 +15,4 @@ const YouTube = ({ videoId }) => {
   );
 };
 
-export default YouTube;
+export default YouTubee;

@@ -1,0 +1,17 @@
+
+.brand{
+    border-top: 1px solid rgb(230, 230, 230);
+    border-bottom: 1px solid rgb(230, 230, 230);
+    padding:80px 0px !important;
+}
+
+.brand-logo img {
+    width: 100px;
+    height: auto;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease-in-out;
+}
+
+.brand-logo img:hover {
+    filter: grayscale(0%);
+}

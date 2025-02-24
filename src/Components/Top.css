@@ -1,0 +1,54 @@
+/* Style for the dropdown button */
+.drop-down {
+    position: relative;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  /* Style for the dropdown arrow */
+  .dropdown-arrow {
+    margin-left: 8px;
+    font-size: 12px;
+    transition: transform 0.3s ease;
+  }
+  
+  /* Rotate the arrow when the dropdown is open */
+  .dropdown.open .dropdown-arrow {
+    transform: rotate(180deg);
+  }
+  
+  /* Style for the dropdown menu */
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: red;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  /* Style for each dropdown item */
+  .dropdown-item {
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f0f0f0;
+  }
+  .i-btn{
+    height: 40px !important;
+    width: 40px;
+    border-radius: 50%;
+  }
+  .top{
+    border-bottom: 1px solid rgb(235, 235, 235);
+  }
+  

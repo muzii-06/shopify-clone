@@ -1,0 +1,10 @@
+.announcement{
+    background-color: #D01212;
+    padding: 10px;
+}
+.a-text{
+    /* color: 255, 255, 255,0.68; */
+    font-size: 14px;
+    text-align: center !important;
+    color: white;
+}

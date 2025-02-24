@@ -1,0 +1,63 @@
+.banner {
+    position: relative;
+    width: 99%;
+    margin: auto;
+    height: 300px; /* Adjust as needed */
+    background: url("https://flexon-demo.myshopify.com/cdn/shop/files/banner-5_1.png?v=1732533237&width=1500") no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; /* Align text to the left */
+    padding-left: 70px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 70px;
+}
+
+.banner-overlay {
+    max-width: 40%;
+}
+
+.banner-tag {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.banner-overlay h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.explore-btn {
+    background: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+
+.explore-btn:hover {
+    background: darkred;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .banner {
+        height: 250px;
+        padding-left: 20px;
+    }
+    
+    .banner-overlay {
+        max-width: 90%;
+        text-align: center;
+    }
+
+    .banner-overlay h1 {
+        font-size: 24px;
+    }
+}

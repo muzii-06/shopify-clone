@@ -1,0 +1,96 @@
+.trending-products {
+    margin-top: 100px;
+  }
+  
+  /* Tab Navigation */
+  .tab-link {
+    background: none;
+    border: none;
+    padding: 2px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 400;
+    color: #333;
+    transition: color 0.3s ease;
+    margin: 0 10px;
+  }
+  
+  .tab-link.active {
+    color: black;
+    border-bottom: 1px solid black;
+  }
+  
+  /* Product Card */
+  .product-card {
+    background: #f8f8f8;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+  }
+  
+  .discount-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #ff5252;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  
+  .old-price {
+    text-decoration: line-through;
+    
+    
+  }
+  
+  .price {
+    /* font-weight: bold; */
+    font-size: 14px !important;
+    color: gray;
+  }
+  
+  /* Color Dots */
+  .color-options {
+    margin-top: 10px;
+  }
+  
+  .color-dot {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .color-dot.yellow {
+    background-color: yellow;
+  }
+  
+  .color-dot.blue {
+    background-color: blue;
+  }
+  
+  .color-dot.white {
+    background-color: white;
+    border: 1px solid black;
+  }
+  
+  .color-dot.black {
+    background-color: black;
+  }
+  
+  .color-dot.red {
+    background-color: red;
+  }
+  

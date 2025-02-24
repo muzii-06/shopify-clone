@@ -1,5 +1,5 @@
 import React from "react";
-import "./YouTube.css"; // Import CSS for styling
+import "./YouTubee.css"; // Import CSS for styling
 
 const YouTube = ({ videoId }) => {
   return (
